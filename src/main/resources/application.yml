@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: LearnSpringSecurityApplication
+
+# <---hardcoded Userdetails---->
+  security:
+    user:
+      name: akshit
+      password: password
+
+  datasource:
+    url: jdbc:postgresql://localhost:5444/learnspring
+    username: postgres
+    password: postgres
