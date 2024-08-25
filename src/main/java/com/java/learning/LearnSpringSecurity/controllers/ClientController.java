@@ -22,4 +22,12 @@ public class ClientController {
     public Users register(@RequestBody Users user) {
         return userService.register(user);
     }
+
+    @PostMapping("/login")
+    public String login(@RequestBody Users user) {
+
+        // verify the user for login
+        return userService.verify(user);
+        //return "Login Success!!! " + user.getUsername();
+    }
 }
