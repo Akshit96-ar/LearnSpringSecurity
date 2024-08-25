@@ -3,6 +3,7 @@ spring:
     name: LearnSpringSecurityApplication
 
 # <---hardcoded Userdetails---->
+#<------ no needed when using db authentication ---->
   security:
     user:
       name: akshit
